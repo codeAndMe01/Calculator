@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+       
+        <input type="text" name="" readonly id="">
+
+
+        <div class="button-grid">
+          
+            <button class="grey  clear">AC</button>
+            <button class="grey opr">**</button>
+            <button class="grey opr">%</button>
+            <button class="yellow opr">/</button>
+
+
+            <button class="plane  nums" >7</button>
+            <button class="plane  nums">8</button>
+            <button class="plane  nums">9</button>
+            <button class="yellow opr">*</button>
+
+
+            <button class="plane  nums">4</button>
+            <button class="plane  nums">5</button>
+            <button class="plane  nums">6</button>
+            <button  class="yellow opr">-</button>
+
+
+            <button class="plane  nums">1</button>
+            <button class="plane  nums">2</button>
+            <button class="plane  nums">3</button>
+            <button class="yellow opr">+</button>
+          
+          
+            <button class="plane  nums" id="zero">0</button>
+
+            <button class="plane nums">.</button>
+
+            <button class="yellow result">=</button>
+
+        </div>
+
+
+
+
+    </div>
+
+    <audio id="numPress"  src="./audio/click_sound.mp3"></audio>
+    <audio id="equalPress"  src="./audio/piano_click.mp3"></audio>
+    <audio id="clearPress"  src="./audio/click.mp3"></audio>
+    
+
+
+    <script src="app.js"></script>
+</body>
+</html>
